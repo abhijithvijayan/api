@@ -1,0 +1,6 @@
+{
+  "watch": ["src/**/*"],
+  "execMap": {
+    "ts": "rimraf production-server && tsc --project tsconfig.json && node production-server/index.js"
+  }
+}
