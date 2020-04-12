@@ -1,4 +1,4 @@
-import { cleanNotificationForFirebase } from '../src/utils/notifications';
+import { cleanNotificationForFirebase } from '../source/utils/notifications';
 
 test('testing clean notification for firebase function', () => {
     const oldNotification =
