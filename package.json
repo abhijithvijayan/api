@@ -1,7 +1,16 @@
 {
-  "name": "ktu",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ktu-result-notifier",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Telegram bot notifier to show result stats on KTU Result Publish",
+  "author": {
+    "name": "abhijithvijayan",
+    "email": "34790378+abhijithvijayan@users.noreply.github.com",
+    "url": "https://abhijithvijayan.in"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "main": "src/index.js",
   "scripts": {
     "build": "babel src -d dist --source-maps",
@@ -13,7 +22,6 @@
     "coverage": "jest --coverage --runInBand --verbose",
     "eslint": "eslint src/**/*.js --ignore-pattern \"node_modules/\""
   },
-  "author": "",
   "dependencies": {
     "@slack/web-api": "^5.0.1",
     "body-parser": "^1.18.3",
