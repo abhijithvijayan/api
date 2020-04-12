@@ -21,18 +21,18 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@slack/web-api": "^5.0.1",
-    "body-parser": "^1.18.3",
-    "cheerio": "^1.0.0-rc.2",
-    "cors": "^2.8.4",
-    "dayjs": "^1.7.5",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "firebase-admin": "^7.3.0",
+    "@slack/web-api": "^5.8.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.8.24",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.10.0",
     "node-cron": "^2.0.3",
-    "redis": "^2.8.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   },
   "devDependencies": {
     "@abhijithvijayan/tsconfig": "^1.1.2",
@@ -50,10 +50,11 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
-    "jest": "^23.5.0",
-    "jest-cli": "^23.5.0",
+    "jest": "^25.3.0",
+    "jest-cli": "^25.3.0",
     "nodemon": "^1.18.4",
     "prettier": "^2.0.2",
+    "rimraf": "^3.0.2",
     "typescript": "^3.8.3"
   }
 }
