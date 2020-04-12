@@ -1,0 +1,10 @@
+{
+  "extends": "@abhijithvijayan/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "allowJs": true
+  },
+  "include": [
+    "src"
+  ]
+}
